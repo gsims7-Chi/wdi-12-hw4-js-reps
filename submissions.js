@@ -67,6 +67,15 @@ for (let i = 1; i <= 100; i++) {
 for (let i = 0; i <= 100; i++) {
 	if (i % 5 === 0) {
 		console.log("I found a " + i + ". High five!");
+	}else {
+		console.log(i);
+	}
+}
+
+
+for (let i = 0; i <= 100; i++) {
+	if (i % 5 === 0) {
+		console.log("I found a " + i + ". High five!");
 	}else if (i % 3 === 0) {
 		console.log("I found a " + i + ". Three's a crowd.")
 
@@ -74,6 +83,36 @@ for (let i = 0; i <= 100; i++) {
 		console.log(i);
 	}
 }
+const quotes = ["FIRE!!", "Oh how the mighty have fallen.", "It was almost like she dared me to do it."]
+
+
+const randomThings = [1, 10, "Hello", true]
+	randomThings[2] = "World"
+	console.log(randomThings)
+
+const myArray = [5 ,10 ,500, 20]
+	myArray.push("Egon");
+	myArray.pop();
+	myArray.unshift("Bob Marley");
+	myArray.shift();
+	myArray.reverse()
+
+const bigNumber = (num) => {
+	if (num < 100){
+		return "little number"
+	}else if (num >= 100){
+		return "BIG NUMBER!"
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,9 +11,7 @@
 // 	let yourName = "Eugene Sims"
 // 	console.log("Hello, my name is " + yourName)
 
-const randomThings = [1, 10, "Hello", true]
-	randomThings[2] = "World"
-	console.log(randomThings)
+
 
 
 
